@@ -1,5 +1,9 @@
 import img from '../assets/imgLing.jpg'
+import img2 from '../assets/imgLilian.jpg';
+
 import { IoIosCode } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Main() {
   return(
@@ -44,6 +48,27 @@ function Main() {
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
                 </div>
             </div>
+        </div>
+      </section>
+
+      <section className="sobre">
+        <div className="interface">
+          <div className="flex">
+            <div className="img-sobre">
+              <img src={img2} alt="" />
+            </div>
+            <div className="txt-sobre">
+                <h2>MUITO PRAZER, <span>SOU LÍLIAN VIEIRA.</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos eveniet hic delectus eligendi possimus rem dolorem eum debitis sequi tempore. Odit provident placeat ratione ipsa quasi. Ut odio illo tenetur?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquid iusto minus impedit quod voluptatum, nam natus optio atque dolore possimus quidem deserunt itaque, commodi dolor adipisci nostrum fugiat nemo.</p>
+                <div className="btn-social">
+                    <a href="https://www.linkedin.com/in/lilian-vieira-moura/">
+                      <button> <FaLinkedin /> </button></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5581994670688&text&type=phone_number&app_absent=0">
+                      <button> <FaWhatsapp /> </button></a>
+                </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
