@@ -1,4 +1,5 @@
 import img from '../assets/imgLing.jpg'
+import { IoIosCode } from "react-icons/io";
 
 function Main() {
   return(
@@ -20,6 +21,29 @@ function Main() {
                 <img src={img} alt="" />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="especialidades">
+        <div className="interface">
+              <h2 className="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+            <div className="flex">
+                <div className="especialidades-box">
+                <IoIosCode size={70} color='pink' />
+                  <h3>Website</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
+                </div>
+                <div className="especialidades-box">
+                <IoIosCode size={70} color='pink' />
+                  <h3>Website</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
+                </div>
+                <div className="especialidades-box">
+                <IoIosCode size={70} color='pink' />
+                  <h3>Website</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
+                </div>
+            </div>
         </div>
       </section>
     </main>
