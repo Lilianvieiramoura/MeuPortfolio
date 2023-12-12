@@ -277,3 +277,93 @@ footer .line-footer p {
   color: pink;
   font-size: 22px;
 }
+
+@media screen and (max-width: 1020px ) {
+    /* classes gerais */
+    .flex {
+      flex-direction: column;
+    }
+
+    h2.titulo {
+      font-size: 30px;
+      line-height: 30px;
+    }
+
+    .topo-site .flex {
+      flex-direction: column-reverse;
+    }
+
+    .sobre .flex {
+      flex-direction: column-reverse;
+    }
+    /* cabeçalho */
+    .menu-desktop, btn-contato {
+      display: none;
+    }
+
+    /* topo do site*/
+    section.topo-site .flex {
+      gap: 40px;
+    }
+
+    section.topo-site {
+      padding: 20px 8%;
+    }
+
+    .topo-site h1 {
+      font-size: 30px;
+    }
+
+    .topo-site img-topo-site img {
+      width: 100%;
+    }
+
+    /* especialidades */
+    section.especialidades {
+      padding: 40px 8%;
+    }
+
+    /* sobre */
+    section.sobre {
+      padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+      font-size: 34px;
+      line-height: 35px;
+      text-align: center;
+    }
+
+    .btn-social {
+      text-align: center;
+    }
+
+    .img-sobre img {
+      width: 100%;
+    }
+
+    /* portfolio */
+    section.portfolio {
+      padding: 40px 8%;
+    }
+
+    .img-portfolio {
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+      gap: 20px;
+    }
+
+    /* footer */
+    footer .flex {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    footer .line-footer {
+      text-align: center;
+    }
+}
