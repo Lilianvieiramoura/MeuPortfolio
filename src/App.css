@@ -181,7 +181,7 @@ section.sobre .flex {
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -251,4 +251,30 @@ section.portfolio .flex {
 
 #img3 { /* exemplo */
   background-color: pink;
+}
+
+footer {
+  padding: 40px 4%;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-top: 2px solid pink;
+}
+
+
+footer .line-footer p a{
+  color: pink;
+}
+
+footer .line-footer p {
+  color: pink;
+  font-size: 22px;
 }
