@@ -241,5 +241,14 @@ section.portfolio .flex {
 }
 
 #img1 { /* exemplo */
-  background-image: url(assets/imgLilian.jpg);
+  /* background-image: url(assets/imgLilian.jpg); */
+  background-color: pink;
+}
+
+#img2 { /* exemplo */
+  background-color: pink;
+}
+
+#img3 { /* exemplo */
+  background-color: pink;
 }
