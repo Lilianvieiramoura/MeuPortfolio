@@ -71,6 +71,23 @@ function Main() {
           </div>
         </div>
       </section>
+
+      <section className="portfolio">
+        <div className="interface">
+        <h2 className="titulo">MEU <span>PORTFÓLIO.</span></h2>
+          <div className="flex">
+            <div className="img-portfolio" id='img1'>
+              <div className="overlay">Projeto 1</div>
+            </div>
+            <div className="img-portfolio" id='img2'>
+            <div className="overlay">Projeto 2</div>
+            </div>
+            <div className="img-portfolio" id='img3'>
+            <div className="overlay">Projeto 3</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
