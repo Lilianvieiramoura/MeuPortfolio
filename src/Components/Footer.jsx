@@ -1,6 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -16,6 +17,8 @@ function Footer() {
                         <button> <FaLinkedin /> </button></a>
                       <a href="https://api.whatsapp.com/send/?phone=5581994670688&text&type=phone_number&app_absent=0">
                         <button> <FaWhatsapp /> </button></a>
+                        <a href="https://github.com/Lilianvieiramoura">
+                        <button> <FaGithub /> </button></a>
               </div>
             </div>
         </div>

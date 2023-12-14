@@ -4,6 +4,7 @@ import img2 from '../assets/imgLilian.jpg';
 import { IoIosCode } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Main() {
   return(
@@ -29,21 +30,21 @@ function Main() {
         </div>
       </section>
 
-      <section className="especialidades">
+      <section className="habilidades">
         <div className="interface">
-              <h2 className="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+              <h2 className="titulo">MINHAS <span>HABILIDADES.</span></h2>
             <div className="flex">
-                <div className="especialidades-box">
+                <div className="habilidades-box">
                 <IoIosCode size={70} color='pink' />
                   <h3>Website</h3>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
                 </div>
-                <div className="especialidades-box">
+                <div className="habilidades-box">
                 <IoIosCode size={70} color='pink' />
                   <h3>Website</h3>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
                 </div>
-                <div className="especialidades-box">
+                <div className="habilidades-box">
                 <IoIosCode size={70} color='pink' />
                   <h3>Website</h3>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vitae, commodi iusto recusandae cumque porro earum explicabo libero, deleniti sint ullam temporibus sed quos obcaecati tenetur quis ab nam sequi.</p>
@@ -67,6 +68,8 @@ function Main() {
                       <button> <FaLinkedin /> </button></a>
                     <a href="https://api.whatsapp.com/send/?phone=5581994670688&text&type=phone_number&app_absent=0">
                       <button> <FaWhatsapp /> </button></a>
+                    <a href="https://github.com/Lilianvieiramoura">
+                        <button> <FaGithub /> </button></a>
                 </div>
             </div>
           </div>
