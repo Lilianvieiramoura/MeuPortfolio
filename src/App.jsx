@@ -1,8 +1,8 @@
 import Header from './Components/Header'
 import Main from './Components/Main'
+import Footer from './Components/Footer'
 
 import './App.css'
-import Footer from './Components/Footer'
 
 function App() {
   return (

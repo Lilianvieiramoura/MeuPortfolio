@@ -7,6 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Main() {
   return(
+    <>
     <main>
       <section className="topo-site">
         <div className="interface">
@@ -89,6 +90,7 @@ function Main() {
         </div>
       </section>
     </main>
+    </>
   )
 }
 
